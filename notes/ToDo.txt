@@ -1,0 +1,26 @@
+
+---------------------------------------------
+
+REACT VISUAL STUDIO CODE EXTEMTION
+
+Ctrl + ALt + R
+
+rafce - create a arrow function with ES7
+
+---------------------------------------------
+JSON Server
+
+npx json-server -p 3500 -w data/db.json
+
+---------------------------------------------
+to do
+
+npm uninstall   "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "web-vitals": "^2.1.4"
+
+---------------------------------------------
+
+npm install easy-peasy
+

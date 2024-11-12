@@ -1,0 +1,57 @@
+Notes
+
+1. This project uses both fetch and axios for API calls
+2. This project creates BookDataContext, PersonDataContext using reacts createContext
+3. In dataContext it has the implementation for fetchItems, search for book and person and shared across pages.
+4. using useEffect fetchItems called on load and search called on search value change from the dataContext
+5. dataContext also exposes bookItems, setBookItems, personItems, setPersonItems
+     and all other realated error and status useState to pages to consume
+6. PersonDataProvider and BookDataProvider is configred or injected from app.js to pages
+
+
+===============================================================================
+
+Step 1 - Create a new react application using below command
+
+npx create-react-app my-react-app
+
+Step 2 - start the react application 
+
+cd my-react-app
+
+npm start
+
+
+Step 3 - axios - Make http requests from node.js
+
+npm install axios
+
+Step 4 - date-fns - Provides toolset for manipulating JavaScript dates in a browser & Node.js
+
+npm install date-fns
+
+Step 5 - react-icons - Include popular icons in your React projects
+
+npm install react-icons
+
+Step 6 - react-router-dom - Package contains bindings for using React Router in web applications
+
+npm i react-router-dom
+
+
+STEP 7 - Dotenv module loads environment variables from a .env file into process.env
+
+npm i dotenv --save
+
+"start": "npm run dev",
+"dev": "PORT=6102 NODE_ENV=development node server.js"
+Add file environment\development.env
+do configuration in server.js
+
+STEP 8 - Passing multiple environment variable is possible only with "cross-env" module, cross-env is a cross platform
+
+Note - ""dev": "PORT=6102 NODE_ENV=development node server.js"" will not work with window os without "cross-env"
+
+npm install cross-env --save-dev
+"start": "npm run dev",
+"dev": "cross-env NODE_ENV=development PORT=6102 node server.js"

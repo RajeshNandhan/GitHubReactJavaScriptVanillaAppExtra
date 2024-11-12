@@ -1,0 +1,42 @@
+https://dzone.com/articles/top-20-git-commands-with-examples
+
+
+git clone https://RNandhan@dev.azure.com/RNandhan/AzureReposEncoress/_git/CoreAPIPrincipleAzureDev.git
+
+git status
+
+git add .
+
+git status
+
+git commit -m "commit it"
+
+git status
+
+git push origin main
+
+git status
+
+-------------------------------
+
+If you have uncommitted changes, the merge part of the git pull command will fail and your local branch will be untouched.
+
+git status
+
+git pull origin main
+-------------------------------
+
+git show -  shows the metadata
+
+git checkout [branch name] - switch from one branch to another
+
+git remote -v
+
+------------------------------
+
+
+git config --global user.name RajeshNandhan
+
+git config --global user.email 
+
+git config --list

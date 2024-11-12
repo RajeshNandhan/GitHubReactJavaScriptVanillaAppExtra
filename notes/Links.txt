@@ -1,0 +1,20 @@
+Core concepts to review React architecture - 10mins
+
+https://www.youtube.com/watch?v=s2skans2dP4
+
+
+--------------------------------------------------------------------
+
+REACT - 9hrs
+
+https://www.youtube.com/watch?v=RVFAyFWO4go
+
+--------------------------------------------------------------------
+
+JavaScript Higher Order Functions
+
+https://www.geeksforgeeks.org/javascript-higher-order-functions/
+
+* 1. Higher-order function approach involves passing a function (callback) as an argument to another function
+* 2. Higher-order functions can also return new functions as return value.
+* 3. It does not mutate the original value
